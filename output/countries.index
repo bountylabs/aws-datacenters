@@ -8,7 +8,7 @@ AI;Anguilla;us-east-1,sa-east-1,us-west-1,eu-west-1,us-west-2,ap-northeast-1,ap-
 AL;Albania;eu-west-1,us-east-1,ap-southeast-1,ap-northeast-1,us-west-2,sa-east-1,us-west-1,ap-southeast-2
 AM;Armenia;eu-west-1,ap-southeast-1,ap-northeast-1,us-east-1,us-west-2,us-west-1,sa-east-1,ap-southeast-2
 AN;Netherlands Antilles;us-east-1,sa-east-1,us-west-1,us-west-2,eu-west-1,ap-northeast-1,ap-southeast-2,ap-southeast-1
-AO;Angola;eu-west-1
+AO;Angola;eu-west-1,sa-east-1,ap-southeast-1,us-east-1,ap-southeast-2,ap-northeast-1,us-west-2,us-west-1
 AP;Asia/Pacific Region;ap-northeast-1,ap-southeast-1,eu-west-1,ap-southeast-2,us-west-2,us-west-1,us-east-1,sa-east-1
 AQ;Antarctica;ap-southeast-2,sa-east-1,ap-southeast-1,ap-northeast-1,us-east-1,us-west-1,us-west-2,eu-west-1
 AR;Argentina;sa-east-1,us-east-1,us-west-1,us-west-2,eu-west-1,ap-southeast-2,ap-southeast-1,ap-northeast-1
@@ -34,7 +34,7 @@ BR;Brazil;sa-east-1,us-east-1,eu-west-1,us-west-1,us-west-2,ap-southeast-2,ap-no
 BS;Bahamas;us-east-1,us-west-1,us-west-2,sa-east-1,eu-west-1,ap-northeast-1,ap-southeast-2,ap-southeast-1
 BT;Bhutan;ap-southeast-1,ap-northeast-1,eu-west-1,ap-southeast-2,us-west-2,us-west-1,us-east-1,sa-east-1
 BV;Bouvet Island;sa-east-1,ap-southeast-2,ap-southeast-1,eu-west-1,us-east-1,us-west-1,ap-northeast-1,us-west-2
-BW;Botswana;eu-west-1
+BW;Botswana;eu-west-1,sa-east-1,ap-southeast-1,ap-southeast-2,us-east-1,ap-northeast-1,us-west-1,us-west-2
 BY;Belarus;eu-west-1,us-east-1,ap-northeast-1,us-west-2,ap-southeast-1,us-west-1,sa-east-1,ap-southeast-2
 BZ;Belize;us-east-1,us-west-1,us-west-2,sa-east-1,eu-west-1,ap-northeast-1,ap-southeast-2,ap-southeast-1
 CA;Canada;us-west-2,us-west-1,us-east-1,eu-west-1,ap-northeast-1,sa-east-1,ap-southeast-1,ap-southeast-2
@@ -48,7 +48,7 @@ CK;Cook Islands;ap-southeast-2,us-west-1,us-west-2,ap-northeast-1,us-east-1,ap-s
 CL;Chile;sa-east-1,us-east-1,us-west-1,us-west-2,eu-west-1,ap-southeast-2,ap-southeast-1,ap-northeast-1
 CM;Cameroon;eu-west-1,sa-east-1,us-east-1,ap-southeast-1,us-west-2,ap-northeast-1,us-west-1,ap-southeast-2
 CN;China;ap-northeast-1,ap-southeast-1,eu-west-1,ap-southeast-2,us-west-2,us-west-1,us-east-1,sa-east-1
-CO;Colombia;sa-east-1
+CO;Colombia;sa-east-1,us-east-1,us-west-1,us-west-2,eu-west-1,ap-southeast-2,ap-northeast-1,ap-southeast-1
 CR;Costa Rica;us-east-1,us-west-1,us-west-2,sa-east-1,eu-west-1,ap-northeast-1,ap-southeast-2,ap-southeast-1
 CU;Cuba;us-east-1,us-west-1,us-west-2,sa-east-1,eu-west-1,ap-northeast-1,ap-southeast-2,ap-southeast-1
 CV;Cape Verde;eu-west-1,sa-east-1,us-east-1,us-west-1,us-west-2,ap-southeast-1,ap-northeast-1,ap-southeast-2
@@ -131,7 +131,7 @@ LC;Saint Lucia;us-east-1,sa-east-1,eu-west-1,us-west-1,us-west-2,ap-northeast-1,
 LI;Liechtenstein;eu-west-1,us-east-1,us-west-2,us-west-1,ap-northeast-1,sa-east-1,ap-southeast-1,ap-southeast-2
 LK;Sri Lanka;ap-southeast-1,ap-northeast-1,ap-southeast-2,eu-west-1,us-west-2,sa-east-1,us-west-1,us-east-1
 LR;Liberia;eu-west-1,sa-east-1,us-east-1,us-west-1,us-west-2,ap-southeast-1,ap-northeast-1,ap-southeast-2
-LS;Lesotho;ap-southeast-1
+LS;Lesotho;ap-southeast-1,sa-east-1,eu-west-1,ap-southeast-2,us-east-1,ap-northeast-1,us-west-1,us-west-2
 LT;Lithuania;eu-west-1,us-east-1,ap-northeast-1,us-west-2,us-west-1,ap-southeast-1,sa-east-1,ap-southeast-2
 LU;Luxembourg;eu-west-1,us-east-1,us-west-2,us-west-1,ap-northeast-1,sa-east-1,ap-southeast-1,ap-southeast-2
 LV;Latvia;eu-west-1,us-east-1,ap-northeast-1,us-west-2,us-west-1,ap-southeast-1,sa-east-1,ap-southeast-2
@@ -158,7 +158,7 @@ MW;Malawi;ap-southeast-1,eu-west-1,sa-east-1,ap-southeast-2,ap-northeast-1,us-ea
 MX;Mexico;us-west-1,us-east-1,us-west-2,sa-east-1,eu-west-1,ap-northeast-1,ap-southeast-2,ap-southeast-1
 MY;Malaysia;ap-southeast-1,ap-northeast-1,ap-southeast-2,eu-west-1,us-west-2,us-west-1,us-east-1,sa-east-1
 MZ;Mozambique;ap-southeast-1,sa-east-1,eu-west-1,ap-southeast-2,ap-northeast-1,us-east-1,us-west-2,us-west-1
-NA;Namibia;eu-west-1
+NA;Namibia;eu-west-1,sa-east-1,ap-southeast-1,us-east-1,ap-southeast-2,ap-northeast-1,us-west-1,us-west-2
 NC;New Caledonia;ap-southeast-2,ap-northeast-1,ap-southeast-1,us-west-1,us-west-2,us-east-1,sa-east-1,eu-west-1
 NE;Niger;eu-west-1,sa-east-1,us-east-1,ap-southeast-1,us-west-2,us-west-1,ap-northeast-1,ap-southeast-2
 NF;Norfolk Island;ap-southeast-2,ap-southeast-1,ap-northeast-1,us-west-1,us-west-2,sa-east-1,us-east-1,eu-west-1
@@ -210,7 +210,7 @@ SR;Suriname;sa-east-1,us-east-1,eu-west-1,us-west-1,us-west-2,ap-northeast-1,ap-
 ST;Sao Tome and Principe;eu-west-1,sa-east-1,us-east-1,ap-southeast-1,us-west-2,us-west-1,ap-northeast-1,ap-southeast-2
 SV;El Salvador;us-east-1,us-west-1,us-west-2,sa-east-1,eu-west-1,ap-northeast-1,ap-southeast-2,ap-southeast-1
 SY;Syrian Arab Republic;eu-west-1,ap-southeast-1,ap-northeast-1,us-east-1,us-west-2,sa-east-1,us-west-1,ap-southeast-2
-SZ;Swaziland;ap-southeast-1
+SZ;Swaziland;ap-southeast-1,sa-east-1,eu-west-1,ap-southeast-2,ap-northeast-1,us-east-1,us-west-2,us-west-1
 TC;Turks and Caicos Islands;us-east-1,us-west-1,us-west-2,sa-east-1,eu-west-1,ap-northeast-1,ap-southeast-2,ap-southeast-1
 TD;Chad;eu-west-1,sa-east-1,ap-southeast-1,us-east-1,ap-northeast-1,us-west-2,us-west-1,ap-southeast-2
 TF;French Southern Territories;ap-southeast-1,ap-southeast-2,sa-east-1,ap-northeast-1,eu-west-1,us-east-1,us-west-2,us-west-1
@@ -235,7 +235,7 @@ UY;Uruguay;sa-east-1,us-east-1,us-west-1,eu-west-1,us-west-2,ap-southeast-2,ap-s
 UZ;Uzbekistan;eu-west-1,ap-southeast-1,ap-northeast-1,us-west-2,us-east-1,us-west-1,ap-southeast-2,sa-east-1
 VA;Holy See (Vatican City State);eu-west-1,us-east-1,us-west-2,sa-east-1,us-west-1,ap-northeast-1,ap-southeast-1,ap-southeast-2
 VC;Saint Vincent and the Grenadines;us-east-1,sa-east-1,eu-west-1,us-west-1,us-west-2,ap-northeast-1,ap-southeast-2,ap-southeast-1
-VE;Venezuela;sa-east-1
+VE;Venezuela;sa-east-1,us-east-1,us-west-1,us-west-2,eu-west-1,ap-northeast-1,ap-southeast-2,ap-southeast-1
 VG;Virgin Islands, British;us-east-1,sa-east-1,us-west-1,eu-west-1,us-west-2,ap-northeast-1,ap-southeast-2,ap-southeast-1
 VI;Virgin Islands, U.S.;us-east-1,sa-east-1,us-west-1,us-west-2,eu-west-1,ap-northeast-1,ap-southeast-2,ap-southeast-1
 VN;Vietnam;ap-southeast-1,ap-northeast-1,ap-southeast-2,eu-west-1,us-west-2,us-west-1,us-east-1,sa-east-1
@@ -244,6 +244,6 @@ WF;Wallis and Futuna;ap-southeast-2,ap-northeast-1,us-west-1,us-west-2,ap-southe
 WS;Samoa;ap-southeast-2,ap-northeast-1,us-west-1,us-west-2,ap-southeast-1,us-east-1,sa-east-1,eu-west-1
 YE;Yemen;ap-southeast-1,eu-west-1,ap-northeast-1,sa-east-1,us-east-1,ap-southeast-2,us-west-2,us-west-1
 YT;Mayotte;ap-southeast-1,eu-west-1,sa-east-1,ap-southeast-2,ap-northeast-1,us-east-1,us-west-2,us-west-1
-ZA;South Africa;ap-southeast-1
-ZM;Zambia;eu-west-1
-ZW;Zimbabwe;eu-west-1
+ZA;South Africa;ap-southeast-1,sa-east-1,eu-west-1,ap-southeast-2,us-east-1,ap-northeast-1,us-west-1,us-west-2
+ZM;Zambia;eu-west-1,sa-east-1,ap-southeast-1,ap-southeast-2,us-east-1,ap-northeast-1,us-west-2,us-west-1
+ZW;Zimbabwe;eu-west-1,sa-east-1,ap-southeast-1,ap-southeast-2,us-east-1,ap-northeast-1,us-west-2,us-west-1

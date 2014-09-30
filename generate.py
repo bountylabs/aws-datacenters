@@ -71,16 +71,18 @@ class Entries(dict):
     def add_entry(self, code, name, lat, lon, tag=""):
         """add an entry"""
         codetag = "-".join([code, tag])
-        datacenters = ",".join(self._get_closest_datacenters(lat, lon))
+        datacenters = self._get_closest_datacenters(lat, lon)
         self[codetag] = Entry(code, name, lat, lon, tag, datacenters)
 
     def override_entry(self, code, name, tag, datacenter):
         """override an entries datacenter or create a new one"""
         codetag = "-".join([code, tag])
         if self.has_key(codetag):
-            self[codetag].datacenter = datacenter
+            if datacenter in self[codetag].datacenter:
+                self[codetag].datacenter.remove(datacenter)
+            self[codetag].datacenter.insert(0, datacenter)
         else:
-            self[codetag] = Entry(code, name, None, None, tag, datacenter)
+            self[codetag] = Entry(code, name, None, None, tag, [datacenter])
 
     def write_index(self, tag, filepath):
         """generate index of entries with tag at filepath"""
@@ -88,7 +90,7 @@ class Entries(dict):
 
         for entry in self:
             if entry.tag == tag:
-                print >>fd, "%s;%s;%s" % (entry.code, entry.name, entry.datacenter)
+                print >>fd, "%s;%s;%s" % (entry.code, entry.name, ",".join(entry.datacenter))
 
         fd.close()
 
