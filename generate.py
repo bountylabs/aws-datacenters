@@ -54,14 +54,15 @@ class Entries(dict):
     def __init__(self):
         self.datacenters = {}
 
-    def _get_closest_datacenter(self, lat, lon):
+    def _get_closest_datacenters(self, lat, lon):
         """returns closest regional datacenter using haversine formula"""
         distances = {}
         for name, datacenter in self.datacenters.items():
             distance = haversine(lat, lon, datacenter.lat, datacenter.lon)
             distances[distance] = name
 
-        return distances[min(distances.keys())]
+        distances_sorted = sorted(distances.items())
+        return [d[1] for d in distances_sorted]
 
     def add_datacenter(self, code, name, lat, lon):
         """add a regional datacenter"""
@@ -70,8 +71,8 @@ class Entries(dict):
     def add_entry(self, code, name, lat, lon, tag=""):
         """add an entry"""
         codetag = "-".join([code, tag])
-        datacenter = self._get_closest_datacenter(lat, lon)
-        self[codetag] = Entry(code, name, lat, lon, tag, datacenter)
+        datacenters = ",".join(self._get_closest_datacenters(lat, lon))
+        self[codetag] = Entry(code, name, lat, lon, tag, datacenters)
 
     def override_entry(self, code, name, tag, datacenter):
         """override an entries datacenter or create a new one"""
@@ -145,7 +146,7 @@ def main():
 
     entries.write_index("usa", "output/usa.index")
     entries.write_index("countries", "output/countries.index")
-    entries.write_map("input/map.html.tmpl", "input/cables", "output/map.html")
+    #entries.write_map("input/map.html.tmpl", "input/cables", "output/map.html")
 
 
 if __name__ == "__main__":
